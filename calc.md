@@ -23,6 +23,7 @@ public class Kalkylator {
     private boolean forts = true; //initierar variabeln forts med true
     private double result;
 
+    //är det rätt hur jag skapa en default konstruktor?
     //default konstruktor
     public Kalkylator() {
         tal[0] = 0;
@@ -140,9 +141,9 @@ public class Kalkylator {
         do {
             System.out.println("Vill du utöka beräkningen? \n1 - Ja \n2 - NEJ ");
                     int svar = scan.nextInt();
-
                     switch (svar) {
                         case 1:
+                        //här också
                             komihag(result);
                             break;
                         case 2:
