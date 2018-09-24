@@ -155,6 +155,8 @@ public class Kalkylator {
         }while (fort == true);
 
     }
+    //här har jag problem, det måste uppdateras om man vill utöka beräkningen
+    
     public void komihag(double result) {
       result = result + tal[1];
      }
