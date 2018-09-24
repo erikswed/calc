@@ -23,7 +23,8 @@ public class Kalkylator {
     private boolean forts = true; //initierar variabeln forts med true
     private double result;
 
-    //är det rätt hur jag skapa en default konstruktor?
+    //default konstruktor hej hopp
+    //är det rätt hur jag skapa en default knstruktor?
     //default konstruktor
     public Kalkylator() {
         tal[0] = 0;
