@@ -24,6 +24,8 @@ public class Kalkylator {
     private double result;
 
     //default konstruktor hej hopp
+    //är det rätt hur jag skapa en default knstruktor?
+    //default konstruktor
     public Kalkylator() {
         tal[0] = 0;
         tal[1] = 0;
@@ -140,9 +142,9 @@ public class Kalkylator {
         do {
             System.out.println("Vill du utöka beräkningen? \n1 - Ja \n2 - NEJ ");
                     int svar = scan.nextInt();
-
                     switch (svar) {
                         case 1:
+                        //här också
                             komihag(result);
                             break;
                         case 2:
