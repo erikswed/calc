@@ -70,7 +70,7 @@ public class KalkylatorGui {
                     + "\n6.SUBTRA med senaste resultat"  
                     + "\n7.MULTI med senaste resultat"  
                     + "\n8.DIVI med senaste resultat"  
-                    + "\n6.Avsluta\n\n");
+                    + "\n9.Avsluta\n\n");
             val = scan.nextInt();
             double[] d;
             switch (val) {
