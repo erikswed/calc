@@ -2,22 +2,21 @@ package com.company;
 
 public class Person {
 
-    private String namn, adress, tlfn, personNbr;
-
+    private String namn = "default";
+    private String personNbr = "XXXXXX-XXXX";
+    private String adress = "default";
+    private String tlfn = "default";
+        
     //default konstruktor
     public Person() {
         System.out.println("i Person default konstruktor ");
-        this.namn = "default";
-        this.personNbr = "XXXXXX-XXXX";
-        this.adress = "default";
-        this.tlfn = "default";
     }
 
     public Person(String namn, String personNbr, String adress, String tlfn) {
-        setNamn(namn);
-        setAdress(adress);
-        setPersonNbr(personNbr);
-        setTlfn(tlfn);
+        this.namn = namn;
+        this.personNbr = personNbr;
+        this.adress = adress;
+        this.tlfn = tlfn;
     }
 
     public void setNamn(String namn) {
